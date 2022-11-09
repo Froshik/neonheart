@@ -8,7 +8,7 @@ body{
 .box {
     position: absolute;
     left: 730px;
-    top: 150px;
+    top: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
