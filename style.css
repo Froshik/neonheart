@@ -1,0 +1,38 @@
+body{
+    background-color:   #1E1E1E;
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.box {
+    position: absolute;
+    left: 730px;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box div {
+    width: 200px;
+    height: 200px;
+  }
+
+.neon-text p{
+    color: #ffd7f3;
+    position: relative;
+    float: left;
+    font-size: 40pt;
+    text-shadow: 0 0 5px #fe01b1, 0 0 25px #fe01b1, 0 0 50px #fe01b1,
+      0 0 75px #fe01b1, 0 0 100px #fe01b1;
+  }
+
+.neon-text p:last-child{
+    color: #c1e8fd;
+    float: left;
+    padding-left: 40px;
+    font-size: 40pt;
+    text-shadow: 0 0 5px #01a5fe, 0 0 25px #01a5fe, 0 0 50px #01a5fe,
+      0 0 75px #01a5fe, 0 0 100px #01a5fe;
+  }  
